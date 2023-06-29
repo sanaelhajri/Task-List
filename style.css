@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 20px;
+}
+
+.todoapp {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.todoapp h1 {
+    text-align: center;
+    color: #333;
+}
+
+.todoapp .input-group {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.todoapp .input-group input {
+    flex: 1;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.todoapp .task-list {
+    margin-top: 20px;
+}
+
+.todoapp .task {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.todoapp .task input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+.todoapp .task .task-text {
+    flex: 1;
+    font-size: 16px;
+}
+
+.todoapp .task .delete-button {
+    color: #ff0000;
+    cursor: pointer;
+}
+
+.addTask {
+    padding: 11px;
+    background: antiquewhite;
+    border-radius: 6px;
+}
